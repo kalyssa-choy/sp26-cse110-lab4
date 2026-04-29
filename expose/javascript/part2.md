@@ -11,3 +11,32 @@
 9. It will cause an error since i is a let variable and can only be accessed inside of the for loop block
 10. It will print 3 since the input prices array has length 3 and since it is a const variable it will only be assigned 3
 11. It will return an empty array since it was initialized as that and cannot be changed
+12.  
+    A. student.name
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[0]
+13. 
+    A. '32' since integers are directly mapped to their exact string representation so it becomes concatenation
+    B. 1 forces number conversion with the subtraction
+    C. 3 since null is 0 
+    D. '3null' since + when using string always means concatenation
+    E. 4 since true maps to 1
+    F. 0 since false and null both map to 0
+    G. '3undefined' since + when using string always means concatenation
+    H. NaN since undefined is NaN
+14. 
+    A. true since '2' maps to 2 and 2 > 1
+    B. false since you iterate through the strings so comparison 2 > 1 means that it would be false
+    C. true becauase '2' maps to 2 and 2 == 2
+    D. false since === checks value and type and 2 is not the same as string '2'
+    E. false since true maps to 1 which isn't 2
+    F. true since any nonzero number in boolean is true
+15. The difference between == and === is that == compares values without taking the type into account and === compares values with taking type into account
+17. [2,4,6] since modifyArray loops through [1,2,3] and for each iteration is calls the callback function ut returns num*2 so it multiplies all is by 2.
+19. 
+    1
+    4
+    3
+    2
